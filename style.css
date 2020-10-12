@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #D6D6D6;
+}
+#container {
+	display: flex;
+	height: 100vh;
+    flex-basis: 100%;
+    flex-direction: column;
+    min-width: 1024px;
+}
+.row {
+    display: flex;
+	flex: 1;
+    flex-flow: wrap;
+    
+}
+#headerL
+{
+    width: 15%;
+    border: 1px solid #000;
+}
+#header
+{
+    flex 1;
+    justify-content: center;
+    align-items: center;
+    width: 69%;
+    border: 1px solid #000;
+}
+#headerR
+{
+    width: 15%;
+    border: 1px solid #000;
+}
+#slider
+{
+    flex 1;
+    border: 1px solid #000;
+    height: 30vh;    
+}
+#contentL
+{
+    
+    width: 15%;
+    border: 1px solid #000;
+}
+#content
+{
+    
+        justify-content: center;
+        align-items: center;
+        width: 69%;
+        border: 1px solid #000;
+        height: 40vh;
+    
+}
+#contentR
+{
+    border: 1px solid #000;
+    width: 15%;
+}
+
+#title
+{
+    border: 1px solid #000;
+    text-align: center;
+}
+.stack
+{
+    border: 1px solid #000;
+    width: 49%;
+}
+.stack:first-child{
+    margin-right: 13px;
+}
+#projects
+{
+    border: 1px solid #000;
+    height: 24vh;
+}
+#footerL
+{
+    width: 15%;
+    border: 1px solid #000;
+}
+.footer
+{
+    border: 1px solid #000;
+    width: 33%;
+}
+#footerR
+{
+    width: 15%;
+    border: 1px solid #000;
+}
+.footer:first-child
+{
+    margin-right: 10px;
+}
