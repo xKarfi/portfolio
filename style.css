@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #D6D6D6;
+    font-family: 'Lato', sans-serif;
 }
 #container {
 	display: flex;
@@ -22,9 +23,8 @@ body {
 }
 #header
 {
-    flex 1;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
+  
     width: 69%;
     border: 1px solid #000;
 }
@@ -35,7 +35,7 @@ body {
 }
 #slider
 {
-    flex 1;
+    
     border: 1px solid #000;
     height: 30vh;    
 }
@@ -47,12 +47,10 @@ body {
 }
 #content
 {
-    
-        justify-content: center;
-        align-items: center;
-        width: 69%;
+        flex: 1;
+        width: 70%;
         border: 1px solid #000;
-        height: 40vh;
+        height: 44vh;
     
 }
 #contentR
@@ -65,19 +63,27 @@ body {
 {
     border: 1px solid #000;
     text-align: center;
+    
 }
 .stack
 {
     border: 1px solid #000;
     width: 49%;
+    flex: 1;
 }
-.stack:first-child{
-    margin-right: 13px;
+
+.media
+{
+    border: 1px solid  #000;
+    flex: 1;
+    text-align: center;
+
 }
+
 #projects
 {
     border: 1px solid #000;
-    height: 24vh;
+    height: 17vh;
 }
 #footerL
 {
@@ -86,6 +92,7 @@ body {
 }
 .footer
 {
+    flex: 1;
     border: 1px solid #000;
     width: 33%;
 }
@@ -93,8 +100,4 @@ body {
 {
     width: 15%;
     border: 1px solid #000;
-}
-.footer:first-child
-{
-    margin-right: 10px;
 }
