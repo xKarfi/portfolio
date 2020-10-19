@@ -22,17 +22,20 @@ body {
 #headerL {
     width: 15%;
     border: 1px solid #000;
+    background-color: #2A252C;
 }
 
 #header {
     flex: 1;
-    width: 69%;
+    width: 70%;
     border: 1px solid #000;
+    background-color: #95979D;
 }
 
 #headerR {
     width: 15%;
     border: 1px solid #000;
+    background-color: #2A252C;
 }
 
 #slider {
@@ -45,21 +48,21 @@ body {
 #contentL {
     width: 15%;
     border: 1px solid #000;
-    background-color: #3C3C3C;
+    background-color: #2A252C;
 }
 
 #content {
     flex: 1;
     width: 70%;
-    border: 1px solid #000;
+   
     height: 44vh;
-    background-color: #B9CAC3;
+    background-color: #95979D;
 }
 
 #contentR {
     border: 1px solid #000;
     width: 15%;
-    background-color: #3C3C3C;
+    background-color: #2A252C;
 }
 
 #title {
@@ -69,22 +72,26 @@ body {
 
 .stackL {
     border: 1px solid #000;
-    width: 49%;
     flex: 1;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stackR {
     border: 1px solid #000;
-    width: 49%;
     flex: 1;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .media {
     border: 1px solid #000;
     flex: 1;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #projects {
@@ -96,15 +103,20 @@ body {
 #footerL {
     width: 15%;
     border: 1px solid #000;
+    background-color: #2A252C;
 }
 
 .footer {
     flex: 1;
+    display: flex;;
     border: 1px solid #000;
-    width: 33%;
+    border-top: 2px solid #000;
+    width: 70%;
+    background-color: #95979D;
 }
 
 #footerR {
     width: 15%;
     border: 1px solid #000;
+    background-color: #2A252C;
 }
